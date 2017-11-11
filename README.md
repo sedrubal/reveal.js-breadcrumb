@@ -9,7 +9,7 @@ Adds breadcrumbs to the bottom of the slides generated out of the slide ID.
 Usage
 -----
 
- - Install with `bower install reveal.js-breadcrumb`
+ - Install with npm, yarn or bower: `(npm install|yarn add|bower install) reveal.js-breadcrumb`
  - Add HTML IDs to your slides. If you want a breadcrumb like `Foo > Bar Section` name the title: `Foo:Bar_Section`
  - Add `{ src: 'breadcrumb/breadcrumb.js', async: true },` to the dependencies section
  - Add `<link rel="stylesheet" href="breadcrumb/breadcrumb.css">`

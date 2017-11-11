@@ -1,0 +1,25 @@
+{
+  "name": "reveal.js-breadcrumb",
+  "version": "1.0.1",
+  "description": "Breadcrumbs plugin for reveal.js",
+  "main": "breadcrumb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedrubal/reveal.js-breadcrumb.git"
+  },
+  "keywords": [
+    "reveal.js",
+    "title",
+    "breadcrumb",
+    "presentation"
+  ],
+  "author": "sedrubal",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sedrubal/reveal.js-breadcrumb/issues"
+  },
+  "homepage": "https://github.com/sedrubal/reveal.js-breadcrumb#readme"
+}

@@ -21,8 +21,8 @@ var RevealBreadcrumb = window.RevealBreadcrumb || (function(){
   function update_breadcrumb( currentSlide ) {
     var bs = document.getElementsByClassName('breadcrumb');
     for (var i = 0; i < bs.length; i++) {
-      if (currentSlide.dataset['noBreadcrumb'] === undefined &&
-          currentSlide.parentElement.dataset['noBreadcrumb'] === undefined) {
+      if (currentSlide.dataset['nobreadcrumb'] === undefined &&
+          currentSlide.parentElement.dataset['nobreadcrumb'] === undefined) {
         bs[i].innerHTML = currentSlide.id.replace(/:/g, ' &rsaquo; ').replace(/_/g, ' ');
         bs[i].style['opacity'] = 1;
       } else {

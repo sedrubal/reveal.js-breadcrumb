@@ -15,7 +15,7 @@
   color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 5px;
-  transition: opacity .25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

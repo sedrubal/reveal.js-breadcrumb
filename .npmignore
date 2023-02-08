@@ -1,2 +1,3 @@
-bower.json
 breadcrumb_example.png
+.prettierrc.yaml
+*.tgz
